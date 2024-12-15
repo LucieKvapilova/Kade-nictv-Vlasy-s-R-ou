@@ -674,6 +674,7 @@ h1 {
   .cenik__container {
     max-width: 750px;
     text-align: center;
+    margin: 0 auto;
   }
   .cenik__container img {
     text-align: center;
