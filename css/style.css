@@ -1,0 +1,1120 @@
+@charset "UTF-8";
+.a {
+  color: #2b2a29;
+}
+.a a:hover,
+.a a:focus {
+  color: #5d5656;
+}
+.a a:active {
+  text-decoration: underline;
+}
+.a a:visited {
+  color: aqua;
+}
+
+p,
+ul,
+ol {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+}
+
+a {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-family: "Cambria", Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+}
+
+/* Záhlaví */
+.header__content {
+  font-size: medium;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* Logo */
+  /* Menu */
+}
+.header__content .header__logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  background-color: #2b2a29;
+}
+.header__content .header__logo img {
+  width: 70%;
+  padding: 10px;
+}
+.header__content .header__menu {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background-color: #2b2a29;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.header__content .header__menu ul {
+  padding: 0;
+}
+.header__content .header__menu li {
+  display: flex;
+  flex-wrap: wrap;
+  /*flex: 1 1 100%; - asi není potřeba */
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+}
+.header__content .header__menu a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 15px;
+  width: 100%;
+}
+.header__content a:hover,
+.header__content a:focus,
+.header__content a:active {
+  background-color: #5d5656;
+  width: 100%;
+}
+
+/* Slider */
+.slider {
+  background-repeat: no-repeat;
+}
+
+.slider img {
+  width: 100%;
+}
+
+/*
+.divider {
+    height: 20px;
+    width: 100%;
+    background-color: #302e29;
+    margin: 0;
+    padding: 0;
+}
+
+.divider p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+/* */
+/* Služby */
+.sluzby__container {
+  text-align: center;
+  margin: 80px 80px 80px 80px;
+}
+.sluzby__container .sluzby__container--bloky {
+  text-align: center;
+}
+.sluzby__container .sluzby__container--bloky img {
+  border: 1px solid #a49b9b;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.sluzby__container .sluzby__blok--prvni,
+.sluzby__container .sluzby__blok--druhy,
+.sluzby__container .sluzby__blok--treti {
+  margin: 10px 20px;
+}
+.sluzby__container .sluzby__container--bloky h2 {
+  font-size: larger;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #302a2a;
+}
+
+/* Produkty */
+.products {
+  background-color: #2b2a29;
+  padding: 50px 50px 50px 50px;
+}
+
+.products__blok {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.products__blok--text h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.products__blok--image {
+  flex: 1 1 100%;
+  margin: 50px 40px 0 40px;
+  padding: 0 10px 0 10px;
+}
+
+.products__blok--image img {
+  border: #a49b9b;
+  border-radius: 5px;
+  width: 70%;
+  max-width: 250px;
+}
+
+.products__blok--text {
+  flex: 1 1 100%;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.products__blok--button {
+  width: 100%;
+  height: 40px;
+  margin: 40px 0 20px 0;
+}
+
+.products__blok--button img {
+  width: 40%;
+}
+
+.products__blok--button:hover img {
+  transform: scale(1.1);
+  transition: transform 500ms ease 0s;
+}
+
+/* Reference */
+.reference__nadpis {
+  padding: 40px 0 0 0;
+}
+
+.reference__nadpis h2 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.reference__blok {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 100px 80px 100px;
+}
+.reference__blok .reference__blok--01,
+.reference__blok .reference__blok--02 {
+  display: flex;
+  margin: 20px 0px;
+  background-color: #968a8a;
+  border-radius: 10px;
+}
+.reference__blok .reference__blok--01 {
+  padding: 10px 40px 10px 20px;
+}
+.reference__blok .reference__blok--02 {
+  padding: 10px 20px 10px 40px;
+}
+.reference__blok .reference__blok--01_img {
+  flex: 1 1 20%;
+  margin: 10px 20px 10px 5px;
+  text-align: center;
+}
+.reference__blok .reference__blok--01_txt {
+  flex: 1 1 80%;
+}
+.reference__blok .reference__blok--02_img {
+  flex: 1 1 20%;
+  margin: 10px;
+  text-align: center;
+}
+.reference__blok .reference__blok--02_txt {
+  flex: 1 1 80%;
+}
+.reference__blok .reference__blok--01 img,
+.reference__blok .reference__blok--02 img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px #302a2a;
+}
+.reference__blok .reference__blok--01_txt p,
+.reference__blok .reference__blok--02_txt p {
+  margin: 10px;
+}
+
+/* Kontaktní formulář */
+.form {
+  text-align: center;
+  background-color: #a49b9b;
+  padding: 40px;
+}
+
+.form h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Zápatí */
+.footer {
+  background-color: #302e29;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer__logo {
+  flex: 1 1 20%;
+}
+
+.footer__logo img {
+  width: 60%;
+  margin: 20px;
+}
+
+.footer__menu {
+  flex: 1 1 30%;
+}
+
+.footer__menu ul {
+  padding-inline-start: 0px;
+}
+
+.footer__menu li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.footer__menu a,
+.footer__adresa a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer__menu li {
+  padding: 10px 25px;
+}
+.footer__menu li a:hover,
+.footer__menu li a:focus,
+.footer__menu li a:active {
+  color: #c730d8;
+}
+
+.footer__adresa {
+  flex: 1 1 30%;
+  display: block;
+  color: #ffffff;
+}
+
+.footer__adresa li {
+  display: inline-block;
+}
+
+.footer__adresa img {
+  width: 70%;
+}
+
+.footer__title {
+  color: #c730d8;
+}
+
+.footer__copyright {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 0;
+  background-color: #24221e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ************************  SLUŽBY  ************************ */
+.sluzby {
+  margin: 50px 10px;
+}
+
+/* ************************  CENÍK  ************************ */
+.cenik {
+  margin: 80px 40px;
+}
+
+.cenik__container {
+  text-align: center;
+}
+
+.cenik__container img {
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+}
+
+.cenik a {
+  color: #6b1075;
+}
+
+.cenik a:hover,
+.cenik a:focus,
+.cenik a:active {
+  color: #c730d8;
+}
+
+.cenik__kontakt p {
+  text-align: center;
+}
+
+.balicky__txt {
+  background-color: #a49b9b;
+  margin: 0;
+  padding: 60px 40px 10px 60px;
+}
+
+.cenik__balicky {
+  background-color: #a49b9b;
+  margin: 0;
+  padding: 20px 60px 60px 60px;
+}
+
+.cenik__balicky--01,
+.cenik__balicky--02 {
+  margin: 10px;
+  text-align: center;
+}
+
+.cenik__balicky--01 img,
+.cenik__balicky--02 img {
+  width: 100%;
+  border: 1px solid #474640;
+}
+
+.cenik__balicky--02 img {
+  margin-top: 50px;
+}
+
+/* ************************  GALERIE  ************************ */
+/* Galerie */
+.galerie {
+  margin: 40px 30px;
+  margin-bottom: 80px;
+}
+
+.galerie h1 {
+  margin-top: 80px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.galerie p {
+  text-align: center;
+}
+
+.galerie__pic img {
+  width: 100%;
+}
+
+.galerie__container {
+  display: block;
+  text-align: center;
+}
+
+.galerie__container img {
+  border: 1px solid #a49b9b;
+  width: 70%;
+  max-width: 380px;
+  margin-bottom: 10px;
+}
+
+/* ************************  FRAMESI  ************************ */
+.framesi,
+.kosmetika {
+  margin: 80px;
+}
+
+.framesi__pic img {
+  width: 100%;
+}
+
+.kosmetika__list li {
+  padding-bottom: 20px;
+}
+
+.kosmetika__list img {
+  width: 400px;
+  float: right;
+  margin: 0px 0px 20px 30px;
+}
+
+.kosmetika__text img {
+  width: 100%;
+}
+
+/* ************************  MEDIA SCREENY  ************************ */
+/* ----------------------- 640 px ------------------------- */
+@media screen and (min-width: 640px) {
+  /* Menu */
+  .header__menu ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header__menu li {
+    flex: 1 1 100%;
+    display: flex;
+  }
+  .header__menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 25px;
+  }
+  /* Slider */
+  .slider {
+    background-image: none;
+  }
+  /* Služby */
+  .sluzby__container--bloky {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 20px;
+    align-items: flex-start;
+  }
+  .sluzby__container--bloky .sluzby__blok--prvni,
+  .sluzby__container--bloky .sluzby__blok--druhy,
+  .sluzby__container--bloky .sluzby__blok--treti {
+    flex: 1 1 auto;
+  }
+  .sluzby__container--bloky img {
+    width: 70%;
+    max-width: 400px;
+  }
+  /* Produkty */
+  .products__blok--image {
+    margin: 40px 0 30px 0;
+    padding: 0 50px 0 50px;
+  }
+  .products__blok--image img {
+    width: 60%;
+    max-width: 350px;
+  }
+  .products__blok--text {
+    padding: 0 60px 50px 60px;
+  }
+  .products__blok--button {
+    margin: 40px 0 0 0;
+  }
+  .products__blok--button img {
+    width: 50%;
+  }
+  /* Reference */
+  .reference__blok {
+    display: flex;
+  }
+  .reference__blok .reference__blok img {
+    width: 80px;
+    border-radius: 50%;
+  }
+  /* Zápatí */
+  .footer__logo img {
+    width: 50%;
+    margin: 20px;
+  }
+  /* --- Galerie --- */
+  .galerie__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .galerie__container img {
+    flex: 1 1 calc((100% - 20px) / 2);
+    border: 1px solid #a49b9b;
+    margin-bottom: 10px;
+    width: 25%;
+  }
+  /* --- Ceník --- */
+  .cenik__balicky--01 img,
+  .cenik__balicky--02 img {
+    width: 80%;
+  }
+}
+/* ----------------------- 720 px ------------------------- */
+@media screen and (min-width: 720px) {
+  /* Menu */
+  .header__menu {
+    flex: 1 1 85%;
+    text-align: center;
+  }
+  .header__menu li {
+    border: none;
+    display: inline-block;
+    flex: 0 0 auto;
+    border: none;
+  }
+  .header__menu a {
+    padding: 10px 30px;
+    display: inline-block;
+  }
+  /* Slider */
+  .box__slider {
+    background-image: url(images/slider01-s.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2b2a29;
+    height: 180px;
+  }
+  .divider {
+    height: 20px;
+    width: 100%;
+    background-color: #302e29;
+    margin: 0;
+    padding: 0;
+  }
+  .divider p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  /* Služby */
+  .sluzby__container--bloky {
+    margin: 20px 50px;
+  }
+  /* Produkty */
+  .products__blok--image img {
+    width: 60%;
+    max-width: 300px;
+  }
+  .products__blok--button {
+    margin: 40px 0 0 0;
+  }
+  .products__blok--button img {
+    width: 50%;
+    max-width: 210px;
+  }
+  /* Zápatí */
+  .footer__logo img {
+    width: 40%;
+    margin: 20px;
+  }
+  /* --- Ceník --- */
+  .cenik {
+    margin: 80px 50px;
+  }
+  .cenik p {
+    font-size: larger;
+  }
+  .cenik__balicky--01 img,
+  .cenik__balicky--02 img {
+    width: 70%;
+  }
+  /* --- Galerie --- */
+  .galerie__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .galerie__container img {
+    flex: 1 1 calc((100% - 20px) / 2);
+    border: 1px solid #a49b9b;
+    margin-bottom: 10px;
+  }
+}
+/* ----------------------- 840 px ------------------------- */
+@media screen and (min-width: 840px) {
+  /* Slider */
+  .box__slider {
+    background-image: url(images/slider01-m.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2b2a29;
+    height: 180px;
+  }
+  .divider {
+    height: 20px;
+    width: 100%;
+    background-color: #302e29;
+    margin: 0;
+    padding: 0;
+  }
+  .divider p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  /* Služby */
+  .sluzby__container--bloky {
+    margin: 20px 80px;
+  }
+  .sluzby__container--bloky img {
+    width: 80%;
+    max-width: 450px;
+  }
+  /* Produkty  */
+  .products__blok--image {
+    margin: 50px 120px 0 120px;
+    padding: 0 30px 0 30px;
+  }
+  .products__blok--image img {
+    max-width: 300px;
+  }
+  /* Reference  */
+  .reference__blok--01 img,
+  .reference__blok--02 img {
+    width: 80%;
+  }
+  /* Zápatí */
+  .footer__logo img {
+    width: 40%;
+    max-width: 110px;
+    margin: 20px;
+  }
+  .footer__adresa {
+    margin: 0 0 0 120px;
+  }
+  /* --- Ceník --- */
+  .cenik__container {
+    max-width: 750px;
+    text-align: center;
+  }
+  .cenik__container img {
+    text-align: center;
+  }
+  .cenik__balicky--01 img,
+  .cenik__balicky--02 img {
+    width: 60%;
+  }
+  /* --- Galerie --- */
+  .galerie__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .galerie__container img {
+    flex: 1 1 30%;
+  }
+}
+/* ----------------------- 960 px ------------------------- */
+@media screen and (min-width: 960px) {
+  /* Logo */
+  .header__logo img {
+    width: 70%;
+    max-width: 620px;
+    padding: 10px;
+  }
+  /* Slider */
+  .box__slider {
+    background-image: url(images/slider01-m.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2b2a29;
+    height: 180px;
+  }
+  /* Služby */
+  .sluzby__container--bloky {
+    margin: 20px 100px;
+  }
+  .sluzby__container--bloky img {
+    width: 80%;
+    max-width: 480px;
+  }
+  /* Produkty  */
+  .products__blok {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+    margin: 0;
+  }
+  .products__blok--image {
+    margin: 0;
+    padding: 0;
+    flex: 1 1 40%;
+  }
+  .products__blok--text {
+    padding-bottom: 50px;
+    padding-right: 20px;
+    flex: 1 1 60%;
+    text-align: left;
+  }
+  .products__blok--text p {
+    padding-left: 30px;
+  }
+  .products__blok--image img {
+    width: 95%;
+    max-width: 280px;
+    margin-left: 30px;
+  }
+  .products__blok--button {
+    text-align: center;
+  }
+  /* Reference  */
+  .reference__blok--01 img,
+  .reference__blok--02 img {
+    width: 60%;
+    max-width: 120px;
+  }
+  /* Zápatí */
+  .footer__logo img {
+    width: 40%;
+    max-width: 120px;
+    margin: 20px;
+  }
+  .footer__adresa {
+    margin: 0 0 0 180px;
+  }
+  /* --- Ceník --- */
+  .cenik__balicky--01 img,
+  .cenik__balicky--02 img {
+    width: 50%;
+  }
+}
+/* ----------------------- 1024 px ------------------------- */
+@media screen and (min-width: 1024px) {
+  /* Záhlaví */
+  .header__content {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .header__menu {
+    margin: 0;
+    padding: 0;
+  }
+  /* Menu */
+  .header__menu ul {
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .header__menu li {
+    border: none;
+  }
+  .header__menu a {
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  /* Logo */
+  .header__logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-color: #2b2a29;
+  }
+  .header__logo img {
+    margin: 0 0 0 10px;
+    width: 60%;
+    float: left;
+  }
+  /* Slider */
+  .box__slider {
+    background-image: url(images/slider01-l.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2b2a29;
+    height: 240px;
+  }
+  .divider {
+    height: 20px;
+    width: 100%;
+    background-color: #302e29;
+    margin: 0;
+    padding: 0;
+  }
+  .divider p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  /* Služby */
+  .sluzby__container {
+    text-align: center;
+    margin: 90px 10px;
+    align-items: center;
+  }
+  .sluzby__container--bloky {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .sluzby__blok--prvni,
+  .sluzby__blok--druhy,
+  .sluzby__blok--treti {
+    flex: 1 1 auto;
+    margin: 0 30px 0 30px;
+  }
+  .sluzby__container--bloky h2 {
+    font-size: large;
+  }
+  .sluzby__container--bloky img {
+    max-width: 350px;
+  }
+  /* Produkty */
+  .products__blok {
+    display: flex;
+  }
+  .products__blok--image {
+    flex: 1 1 40%;
+  }
+  .products__blok--image img {
+    width: 90%;
+    max-width: 300px;
+  }
+  .products__blok--text {
+    flex: 1 1 60%;
+  }
+  /* Reference */
+  .reference__blok {
+    display: flex;
+  }
+  .reference__blok .reference__blok--01,
+  .reference__blok .reference__blok--02 {
+    flex: 1 1 50%;
+    margin: 40px 20px 20px 20px;
+  }
+  .reference__blok .reference__blok img {
+    width: 70px;
+    border-radius: 100%;
+  }
+  /* Zápatí */
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__logo {
+    flex: 1 1 15%;
+  }
+  .footer__menu {
+    flex: 1 1 55%;
+    flex-wrap: nowrap;
+  }
+  .footer__menu li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .footer__menu a {
+    font-size: 18px;
+  }
+  .footer__adresa {
+    flex: 1 1 40%;
+  }
+  /* --- Ceník --- */
+  .cenik__container {
+    width: 90%;
+    max-width: 800px;
+  }
+  .cenik p {
+    font-size: x-large;
+  }
+  .cenik__balicky--01 img,
+  .cenik__balicky--02 img {
+    width: 50%;
+  }
+  /* --- Galerie --- */
+  .galerie__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 100px;
+  }
+  .galerie__container img {
+    flex: 1 1 10%;
+    max-width: 280px;
+    margin-bottom: 30px;
+  }
+  /* --- OSTATNÍ STRÁNKY --- */
+  .sluzby h1,
+  .framesi h1,
+  .galerie h1,
+  .cenik h1 {
+    font-size: 24px;
+  }
+  .sluzby p,
+  .framesi p,
+  .galerie p,
+  .cenik p {
+    font-size: 18px;
+  }
+}
+/* ----------------------- 1280 px ------------------------- */
+@media screen and (min-width: 1280px) {
+  /* Slider */
+  .box__slider {
+    background-image: url(images/slider01.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2b2a29;
+    height: 300px;
+  }
+  .divider {
+    height: 20px;
+    width: 100%;
+    background-color: #302e29;
+    margin: 0;
+    padding: 0;
+  }
+  .divider p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  /* Služby */
+  .sluzby__container--bloky {
+    margin: 20px 200px;
+  }
+  .sluzby__blok--prvni,
+  .sluzby__blok--druhy,
+  .sluzby__blok--treti {
+    margin: 10px 30px;
+  }
+  /* Produkty */
+  .products {
+    padding: 80px;
+  }
+  .products__blok--image {
+    flex: 1 1 30%;
+    margin-left: 30px;
+  }
+  .products__blok--text {
+    flex: 1 1 70%;
+    padding: 0 30px 40px 40px;
+  }
+  .products__blok--image img {
+    width: 90%;
+    max-width: 300px;
+  }
+  /* Reference */
+  .reference__blok {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .reference__blok img {
+    width: 70px;
+  }
+  .reference__blok--01,
+  .reference__blok--02 {
+    flex: 1 1 50%;
+  }
+  /* Zápatí */
+  .footer__container {
+    justify-content: space-between;
+  }
+  .footer__menu a {
+    font-size: 20px;
+  }
+  .footer__adresa {
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+  }
+  .footer__adresa--adr,
+  .footer__adresa--sm {
+    flex: 1 1 auto;
+  }
+  /* --- Galerie --- */
+  .galerie__container img {
+    width: 20%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  .galerie {
+    margin-bottom: 120px;
+  }
+  /* --- Ceník --- */
+  .cenik__balicky {
+    display: flex;
+    background-color: #a49b9b;
+    margin: 0;
+    padding: 0 60px;
+    justify-content: space-around;
+  }
+  .cenik__balicky--01,
+  .cenik__balicky--02 {
+    flex: 1 1 80%;
+    margin: 80px;
+    text-align: center;
+  }
+  .cenik__balicky--01 img,
+  .cenik__balicky--02 img {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 0;
+  }
+}
+/* ----------------------- 1600 px ------------------------- */
+@media screen and (min-width: 1600px) {
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+  }
+  a {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  h1 {
+    font-family: "Cambria", Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  /* Hlavička */
+  .header__menu {
+    font-size: larger;
+  }
+  /* Slider */
+  .box__slider {
+    background-image: url(images/slider01.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2b2a29;
+    height: 400px;
+  }
+  .divider {
+    height: 20px;
+    width: 100%;
+    background-color: #302e29;
+    margin: 0;
+    padding: 0;
+  }
+  .divider p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  /* Služby */
+  .sluzby__container--bloky a {
+    font-size: larger;
+    font-weight: bold;
+  }
+  /* Reference */
+  .reference__blok {
+    justify-content: center;
+  }
+  .reference__blok--01,
+  .reference__blok--02 {
+    max-width: 650px;
+    flex: 1 1 calc(50% - 40px);
+  }
+  /* Zápatí */
+  .footer__adresa {
+    font-size: 20px;
+  }
+  .footer__menu a {
+    font-size: 20px;
+  }
+  /* --- OSTATNÍ STRÁNKY --- */
+  .sluzby h1,
+  .framesi h1,
+  .galerie h1,
+  .cenik h1 {
+    font-size: 32px;
+  }
+  .sluzby p,
+  .framesi p,
+  .galerie p,
+  .cenik p {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

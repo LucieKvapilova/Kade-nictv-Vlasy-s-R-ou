@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>{{ title }}</title>
+    
+    <!-- Google Fonts: Raleway 400, Open Sans 400(i)/700(i) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway&display=swap" rel="stylesheet">
+
+    <!-- Naše vlastní CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+	<!--Záhlaví-->
+    <header class="header">
+        <div class="header__content">
+            <!--Logo-->       
+            <div class="header__logo">
+                <img src="/images/logo-rada.png" alt="Kadeřnictví Vlasy s Ráďou">
+            </div>
+
+            <!--Menu-->
+            <div class="header__menu">
+                <div class="header__menu--box">
+                    <ul>
+                        <li><a href="/">Domů</a></li>
+                        <li><a href="/cenik/">Ceník</a></li>
+                        <li><a href="/galerie/">Galerie</a></li>
+                        <li><a href="/framesi/">Framesi</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+	<main class="main">
+        {{ content | safe }}
+    </main>
+
+
+
+    <!--Zápatí a kontakt-->
+    <footer class="footer">
+        <div class="footer__container">
+            <!--Spodní Logo-->       
+            <div class="footer__logo">
+                <img class="footer__logo--img" src="/images/logo-solo.png" alt="Kadeřnictví Vlasy s Ráďou">
+            </div>
+
+            <!--Spodní Menu--> 
+            <div class="footer__menu">
+                <ul>
+                    <li><a href="/">Domů</a></li>
+                    <li><a href="/cenik/">Ceník</a></li>
+                    <li><a href="/galerie/">Galerie</a></li>
+                    <li><a href="/framesi/">Framesi</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li> 
+                </ul>
+            </div>
+
+            <!--Adresa a sociální sítě-->
+            <div class="footer__adresa">
+                <div class="footer__adresa--adr">
+                    <p><span class="footer__title">Kadeřnictví Vlasy s Ráďou</span><br />Markova 849, Liberec<br />Tel: 720 033 083</p>
+                </div>
+                <div class="footer__adresa--sm">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100075949746628"><img src="/images/icon-facebook-w.png" alt="Facebook - Vlasy s Ráďou"></a></li>
+                        <li><a href="https://www.instagram.com/vlasy_s_rn/"><img src="/images/icon-instagram-w.png" alt="Instagram - Vlasy s Ráďou"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<div class="footer__copyright">
+				&copy;2024, Lucie Kvapilová
+		</div>
+    </footer>    
+    
+
+</body>
+</html>
